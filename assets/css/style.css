@@ -90,6 +90,9 @@ img {
     .tab1{
         justify-content: flex-end;
     }
+    #pills-home-tab{
+        /* display: none; */
+    }
     #pills-profile{
         position: relative;
         /* right: 100%; */
@@ -100,15 +103,22 @@ img {
         right: 100%;
         /* max-width: 70%; */
         transition: 1s;
+        display: none;
+        height: max-content;
+        /* border: 1px solid red; */
+        background: linear-gradient(45deg, #ff0000, #ff7a7a, #ff4d4d, #ff0000);
+        /* background-position-x: 15px; */
+        border-radius: 15px;
     }
     .nav-menu_visible{
         right: 0%;
+        display: table;
     }
     /* FIN nav */
 
     /* Header */
     .header {
-        background: linear-gradient(45deg, #ff0000, pink, #ff000075, pink);
+        background: linear-gradient(45deg, #ff0000, #ff4747, #ff000075, #ffc0c0);
         animation: fondo__card 10s ease-in-out infinite;
     }
     @keyframes fondo__card {
@@ -131,6 +141,17 @@ img {
     #nav__item2{
         display: none;
     }  */
+
+
+    #pills-tabContent{
+        display: flex;
+    }
+    #pills-home{
+        
+        position: relative;
+        /* right: 142px; */
+        
+    }
 
     
 }
