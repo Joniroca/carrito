@@ -91,7 +91,7 @@ img {
         justify-content: flex-end;
     }
     #pills-home-tab{
-        /* display: none; */
+        display: none;
     }
     #pills-profile{
         position: relative;
@@ -152,10 +152,7 @@ img {
         display: flex;
     }
     #pills-home{
-        
         position: relative;
-        /* right: 142px; */
-        
     }
 
     
